@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktiere mich</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: 'Open Sans', sans-serif;}
+
+    </style>
+</head>
+<body>
+    <h1>Kontaktiere mich</h1>
+    <p>Rinkenbach 6</p>
+    <p>Appenzell</p>
+    <p>0788760102</p>
+    <p>kocyigitberke@gmail.com</p>
+
+    <form action="mailito:kocyigitberke@gmail.com" method="post" enctype="text/plain"> 
+        <label>Dein Name</label>
+        <input type="text" name="Dein Name" value=""><br>
+        <label>Email</label>
+        <input type="email" name="Email" value=""><br>
+        <label>Deine Nachricht</label><br>
+        <textarea name="Deine Nachricht" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name=""><br>
+
+    </form>
+</body>
+</html>
